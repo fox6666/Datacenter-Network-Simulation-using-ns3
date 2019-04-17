@@ -22,4 +22,11 @@ project 1：`Datacenter Network Simulation using ns3`
   * IP address assignment is shown on the topology.
   * All the switches behaves like OSPF routers.
   
+## Traffic patterns
+ * Pattern 1: inter-cluster traffic
+   * Each server communicates using TCP with another server that comes from different cluster
+     * For example, 1-5, 6-2, 3-7, 8-4
+ * Pattern 2: many-to-one traffic
+   * Select one server as the sink, and all the other servers communicate to it
+ * Simulate the two patterns separately, obtain the throughput that the network can achieve, and find out the network bottleneck, how to improve the network.
 
