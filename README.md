@@ -11,11 +11,11 @@ project 1：`Datacenter Network Simulation using ns3`
 
 ## topology
 <div align=center>
-    <img width="650" height="206" src="https://github.com/fox6666/VGA-FPGA/blob/master/images/VGA.png" "原理图"/>
+    <img width="650" height="206" src="https://github.com/fox6666/Datacenter-Network-Simulation-using-ns3/master/image/network.png" "网络拓扑图"/>
 </div>
 
 ## Description
-  * 8 servers: n1\~8; 4 ToR switches: t1~4; 2 aggregation switches: a1~2; 1 core switch: c1
+  * 8 servers: n1\~8; 4 ToR switches: t1\~4; 2 aggregation switches: a1\~2; 1 core switch: c1
   * The network is partitioned into two clusters
   * The links connecting to c1 are PPP, or the other networks are Ethernets, the networks’ capacities are shown on the topology graph.
   * All the end-end delays on the networks are 500ns.
